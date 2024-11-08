@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
-  "version": "1.0",
+  "name": "Custom 8-Ball",
+  "description": "it just has basic &quot; yes &quot; or &quot; no &quot; answers",
+  "version": "1.1",
   "action": {
-    "default_popup": "hello.html"
+    "default_popup": "8ball.html"
   }
 }
