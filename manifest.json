@@ -1,9 +1,14 @@
 {
   "manifest_version": 3,
   "name": "Custom 8-Ball",
-  "description": "it just has basic &quot; yes &quot; or &quot; no &quot; answers",
+  "description": "it just has basic \"yes\" or \"no\" answers",
   "version": "1.1",
   "action": {
     "default_popup": "8ball.html"
+  },
+  "icons": {
+    "16": "extension-icon.ico",
+    "48": "extension-icon.ico",
+    "128": "extension-icon.ico"
   }
 }
