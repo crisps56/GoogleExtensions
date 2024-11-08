@@ -6,4 +6,5 @@
   "action": {
     "default_popup": "8ball.html",
     "default_icon": "extension-icon.png"
+  }
 }
