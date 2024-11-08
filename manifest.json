@@ -4,11 +4,18 @@
   "description": "it just has basic \"yes\" or \"no\" answers",
   "version": "1.1",
   "action": {
-    "default_popup": "8ball.html"
+    "default_popup": "8ball.html",
+    "default_icon": "extension-icon.ico"
   },
   "icons": {
     "16": "extension-icon.ico",
     "48": "extension-icon.ico",
     "128": "extension-icon.ico"
+  },
+  "content_security_policy": {
+    "extension_pages": {
+      "script-src": "'self';",
+      "object-src": "'none';"
+    }
   }
 }
