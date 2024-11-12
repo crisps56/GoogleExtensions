@@ -3,6 +3,11 @@
   "name": "Securly",
   "version": "1.0",
   "description": "Securly extension for enhanced browsing security.",
+  "icons": {
+    "16": "icon-128.png",
+    "48": "icon-128.png",
+    "128": "icon-128.png"
+  },
   "action": {
     "default_icon": "icon-128.png",
     "default_title": "Securly"
